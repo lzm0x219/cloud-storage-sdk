@@ -1,0 +1,58 @@
+{
+  "name": "cloud-storage-sdk",
+  "version": "1.0.0-development",
+  "description": "A nodejs sdk that supports multiple cloud storage services",
+  "keywords": [
+    "cloud-storage",
+    "oss",
+    "aliyun",
+    "tencent",
+    "qiniu"
+  ],
+  "homepage": "https://github.com/lzm0x219/cloud-storage-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/lzm0x219/cloud-storage-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzm0x219/cloud-storage-sdk.git"
+  },
+  "license": "MIT",
+  "author": "摸奶伯德",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm -y",
+    "prepare": "is-ci || husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,cjs}": [
+      "rome format --write",
+      "rome check"
+    ],
+    "*.{md,html,css,json,yml}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
+    "package.json": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "@actions/core": "1.10.0",
+    "ali-oss": "6.17.1",
+    "cos-nodejs-sdk-v5": "2.11.16"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.3",
+    "@types/node": "18.11.9",
+    "@vercel/ncc": "0.34.0",
+    "husky": "8.0.2",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.4",
+    "prettier": "2.8.0",
+    "prettier-plugin-packagejson": "2.3.0",
+    "rome": "10.0.1-nightly.b7eb6fd",
+    "sort-package-json": "2.1.0",
+    "typescript": "4.9.3"
+  },
+  "engines": {
+    "node": ">=16.8.0"
+  }
+}
