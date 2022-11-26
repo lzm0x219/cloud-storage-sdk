@@ -1,8 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@actions/core': 1.10.0
-  '@tsconfig/node16': 1.0.3
+  '@tsconfig/node16-strictest': 1.0.4
   '@types/node': 18.11.9
   '@vercel/ncc': 0.34.0
   ali-oss: 6.17.1
@@ -17,12 +16,11 @@ specifiers:
   typescript: 4.9.3
 
 dependencies:
-  '@actions/core': 1.10.0
   ali-oss: 6.17.1
   cos-nodejs-sdk-v5: 2.11.16
 
 devDependencies:
-  '@tsconfig/node16': 1.0.3
+  '@tsconfig/node16-strictest': 1.0.4
   '@types/node': 18.11.9
   '@vercel/ncc': 0.34.0
   husky: 8.0.2
@@ -35,19 +33,6 @@ devDependencies:
   typescript: 4.9.3
 
 packages:
-
-  /@actions/core/1.10.0:
-    resolution: {integrity: sha512-2aZDDa3zrrZbP5ZYg159sNoLRb61nQ7awl5pSvIq5Qpj81vwDzdMRKzkWJGJuwVvWpvZKx7vspJALyvaaIQyug==}
-    dependencies:
-      '@actions/http-client': 2.0.1
-      uuid: 8.3.2
-    dev: false
-
-  /@actions/http-client/2.0.1:
-    resolution: {integrity: sha512-PIXiMVtz6VvyaRsGY268qvj57hXQEpsYogYOu2nrQhlf+XCGmZstmuZBbAybUl1nQGnvS1k1eEsQ69ZoD7xlSw==}
-    dependencies:
-      tunnel: 0.0.6
-    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -123,8 +108,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /@tsconfig/node16/1.0.3:
-    resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
+  /@tsconfig/node16-strictest/1.0.4:
+    resolution: {integrity: sha512-kp6/DuAoKzHVv5U+p0uOesYbjrEvrYVNdQMl163a+yXXUv9twabvkCGEn3pmVxKXB45JU5MPGolDDWnONZL5ZQ==}
     dev: true
 
   /@types/glob/7.2.0:
@@ -2031,11 +2016,6 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /tunnel/0.0.6:
-    resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
-    engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
-    dev: false
-
   /tweetnacl/0.14.5:
     resolution: {integrity: sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==}
     dev: false
@@ -2122,11 +2102,6 @@ packages:
   /uuid/3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
-    hasBin: true
-    dev: false
-
-  /uuid/8.3.2:
-    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
     dev: false
 
