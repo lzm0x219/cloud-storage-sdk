@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@tsconfig/node16-strictest': 1.0.4
   '@types/node': 18.11.9
-  '@vercel/ncc': 0.34.0
   ali-oss: 6.17.1
   cos-nodejs-sdk-v5: 2.11.16
   husky: 8.0.2
@@ -24,7 +23,6 @@ dependencies:
 devDependencies:
   '@tsconfig/node16-strictest': 1.0.4
   '@types/node': 18.11.9
-  '@vercel/ncc': 0.34.0
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.0.4
@@ -127,11 +125,6 @@ packages:
 
   /@types/node/18.11.9:
     resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
-    dev: true
-
-  /@vercel/ncc/0.34.0:
-    resolution: {integrity: sha512-G9h5ZLBJ/V57Ou9vz5hI8pda/YQX5HQszCs3AmIus3XzsmRn/0Ptic5otD3xVST8QLKk7AMk7AqpsyQGN7MZ9A==}
-    hasBin: true
     dev: true
 
   /acorn-walk/8.2.0:

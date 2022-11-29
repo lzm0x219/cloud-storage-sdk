@@ -55,7 +55,6 @@
   "devDependencies": {
     "@tsconfig/node16-strictest": "1.0.4",
     "@types/node": "18.11.9",
-    "@vercel/ncc": "0.34.0",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.4",
@@ -64,6 +63,22 @@
     "rome": "10.0.1-nightly.b7eb6fd",
     "sort-package-json": "2.1.0",
     "typescript": "4.9.3"
+  },
+  "peerDependencies": {
+    "ali-oss": "6.x",
+    "cos-nodejs-sdk-v5": "2.x",
+    "qiniu": "7.x"
+  },
+  "peerDependenciesMeta": {
+    "ali-oss": {
+      "optional": true
+    },
+    "cos-nodejs-sdk-v5": {
+      "optional": true
+    },
+    "qiniu": {
+      "optional": true
+    }
   },
   "engines": {
     "node": ">=16.0.0"
