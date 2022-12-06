@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "ali-oss": "6.17.1",
-    "cos-nodejs-sdk-v5": "2.11.16",
+    "cos-nodejs-sdk-v5": "2.11.17",
     "qiniu": "7.8.0"
   },
   "devDependencies": {
