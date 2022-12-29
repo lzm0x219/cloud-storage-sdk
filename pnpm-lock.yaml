@@ -4,7 +4,7 @@ specifiers:
   '@tsconfig/node16-strictest': 1.0.4
   '@types/node': 18.11.12
   ali-oss: 6.17.1
-  cos-nodejs-sdk-v5: 2.11.18
+  cos-nodejs-sdk-v5: 2.11.19
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
@@ -17,7 +17,7 @@ specifiers:
 
 dependencies:
   ali-oss: 6.17.1
-  cos-nodejs-sdk-v5: 2.11.18
+  cos-nodejs-sdk-v5: 2.11.19
   qiniu: 7.8.0
 
 devDependencies:
@@ -468,8 +468,8 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: false
 
-  /cos-nodejs-sdk-v5/2.11.18:
-    resolution: {integrity: sha512-Sr7P4s5iYNJILwLBJ5e9R45FyCuyXBge51dtlMFrItpahYiHZzegftxuXDhgpvp3DgRso5ve4Qxl77RVfAezyA==}
+  /cos-nodejs-sdk-v5/2.11.19:
+    resolution: {integrity: sha512-lYqjUWWUhifarWupDlDA0sH8yyzXE7tD3ipOKcATIB1Hxkk7REeRleNSLkU/zfSP61Osmwaaw/nkfroujHaJZA==}
     engines: {node: '>= 6'}
     dependencies:
       conf: 9.0.2
